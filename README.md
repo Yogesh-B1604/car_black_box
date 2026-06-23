@@ -165,14 +165,52 @@ CLCD Display / UART Output
 
 ## 📸 Project Demonstration
 
-Include screenshots or videos for:
 
-* Event Logging Interface
-* Login System
-* Log Viewing
-* Time Setting
-* Password Change
-* UART Log Output
+### 📊 Dashboard
+
+![Event Logging](dashboard.png)
+
+---
+
+### 🔐 Login Authentication
+
+![Login Screen](password_verification.png)
+
+---
+
+### 🏠 Main menu
+
+![Set Time](main_menu.png)
+
+---
+
+### 📜 View Logs
+
+![View Logs](view_log.png)
+
+---
+
+### 📥 Download Log (using UART)
+
+![Set Time](download_log.png)
+
+---
+
+### 🧹 Clear Log
+
+![Set Time](clear_log.png)
+
+---
+
+### ⏰ Set Time
+
+![Set Time](set_time.png)
+
+---
+
+### 🔑 Change Password
+
+![Change Password](change_password_1.png)  ![Change Password](change_password_2.png)  ![Change Password](change_password_3.png)
 
 ---
 

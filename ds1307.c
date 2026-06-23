@@ -54,12 +54,12 @@ void display_time(unsigned char *clock_reg)
     time[1] = (clock_reg[0] & 0x0F) + '0';
     
     time[2] = ':';
-    // MM 
+    // MM ->
     time[3] = ((clock_reg[1] >> 4) & 0x07) + '0';
     time[4] = (clock_reg[1] & 0x0F) + '0';
     
     time[5] = ':';
-    // SS
+    // SS ->
     time[6] = ((clock_reg[2] >> 4) & 0x07) + '0';
     time[7] = (clock_reg[2] & 0x0F) + '0';
     time[8] = '\0';
